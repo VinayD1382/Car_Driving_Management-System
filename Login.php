@@ -15,6 +15,8 @@ class Login extends DBConnection {
 	public function index(){
 		echo "<h1>Access Denied</h1> <a href='".base_url."'>Go Back.</a>";
 	}
+	public function index1{
+		echo "<h2> Access dined <a href = "ww.hecg.com>"</h2>"
 	public function login(){
 		extract($_POST);
 
